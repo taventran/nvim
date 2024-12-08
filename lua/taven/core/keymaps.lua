@@ -5,7 +5,7 @@ local keymap = vim.keymap -- for conciseness
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk"})
 
 -- Exiting terminal mode
-keymap.set("t", "<C-space>", "<C-\\><C-n>", {desc = "Exit terminal mode"})
+keymap.set("t", "jk", "<C-\\><C-n>", {desc = "Exit terminal mode"})
 
 -- Window management
 keymap.set("n", "<leader>sv", "<C-w>v", {desc = "Split window vertically"})
