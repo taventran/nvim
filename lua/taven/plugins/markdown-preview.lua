@@ -1,7 +1,9 @@
 return {
   "iamcco/markdown-preview.nvim",
   cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-  build = "cd app && yarn install",
+  build = function()
+    vim.fn["mkdp#util#install"]()
+  end,
   init = function()
       local g = vim.g
       g.mkdp_auto_start = 0
