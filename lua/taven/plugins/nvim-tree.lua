@@ -7,7 +7,6 @@ return {
     -- recommended settings from nvim-tree documentation
     vim.g.loaded_netrw = 1
     vim.g.loaded_netrwPlugin = 1
-    
     nvimtree.setup({})
     -- set keymaps
     local keymap = vim.keymap
