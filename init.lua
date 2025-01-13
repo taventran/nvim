@@ -1,8 +1,8 @@
 require("taven.core")
 require("taven.lazy")
 
-require('transparent').clear_prefix('BufferLine')
-require('transparent').clear_prefix('lualine')
+-- require('transparent').clear_prefix('BufferLine')
+-- require('transparent').clear_prefix('lualine')
 -- vim.cmd [[
 --   hi Normal guibg=NONE ctermbg=NONE
 --   hi LineNr guibg=NONE
@@ -12,4 +12,5 @@ require('transparent').clear_prefix('lualine')
 --   hi TabLineFill guibg=NONE ctermbg=NONE
 --   hi TabLineSel guibg=NONE ctermbg=NONE
 -- ]]
+
 
