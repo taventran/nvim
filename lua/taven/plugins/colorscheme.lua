@@ -1,14 +1,23 @@
+-- return {
+--   "catppuccin/nvim",
+--   priority = 1000,
+--   config = function()
+--     require("catppuccin").setup({
+--       transparent_background = false,
+--     })
+--     vim.cmd("colorscheme catppuccin-mocha")
+--   end
+-- }
+--
+-- lua/plugins/rose-pine.lua
 return {
-  "catppuccin/nvim",
+	"rose-pine/neovim",
   priority = 1000,
-  config = function()
-    require("catppuccin").setup({
-      transparent_background = false,
-    })
-    vim.cmd("colorscheme catppuccin-mocha")
-  end
+	name = "rose-pine",
+	config = function()
+		vim.cmd("colorscheme rose-pine-moon")
+	end
 }
-
 -- return {
 --   'comfysage/evergarden',
 --   priority = 1000, -- Colorscheme plugin is loaded first before any other plugins
